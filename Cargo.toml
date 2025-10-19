@@ -1,0 +1,10 @@
+[package]
+name = "test-tarpaulin-cov-bug"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+    "crate1",
+    "crate2",
+]
